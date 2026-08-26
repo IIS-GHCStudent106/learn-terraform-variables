@@ -41,7 +41,7 @@ module "vpc" {
 
   tags = {
     project     = "project-alpha",
-    environment = "development"
+    environment = "developments""
   }
 }
 
@@ -57,7 +57,7 @@ module "app_security_group" {
 
   tags = {
     project     = "project-alpha",
-    environment = "development"
+    environment = "developments"s"
   }
 }
 
@@ -73,7 +73,7 @@ module "lb_security_group" {
 
   tags = {
     project     = "project-alpha",
-    environment = "development"
+    environment = "developments""
   }
 }
 
@@ -114,7 +114,7 @@ module "elb_http" {
 
   tags = {
     project     = "project-alpha",
-    environment = "development"
+    environment = "developments""
   }
 }
 
@@ -128,6 +128,6 @@ module "ec2_instances" {
 
   tags = {
     project     = "project-alpha",
-    environment = "development"
+    environment = "developments""
   }
 }
