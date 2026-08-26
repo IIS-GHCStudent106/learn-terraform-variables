@@ -4,7 +4,7 @@ terraform {
       source = "hashicorp/aws"    
           }
   }
-
+}
 
   /* cloud {
     organization = "policy-as-code-training"
